@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FirebaseApp</string>
+    <string name="emailId">Email</string>
+    <string name="password">Password</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_setting_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="setup_name_hint">Your name..</string>
+    <string name="setup_btn_setting">Submit Account Setting</string>
+</resources>

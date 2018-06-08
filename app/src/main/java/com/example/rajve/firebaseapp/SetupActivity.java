@@ -76,14 +76,14 @@ public class SetupActivity extends AppCompatActivity {
                     //and inside the folder we can store the image with user id
                     StorageReference image_path = mStorageRef.child("Profile Pictures").child(userId + ".jpg");
 
-                    //now to store the image uri in the path, and then if the task is successful then we should store it to the storage but for now we a re showing it as a toast
+                    //now to store the image uri in the path, and then if the task is successful then we should store it to the storage
                     //else if it is not successful then show the error message as a toast, as the exception can be anything
                     image_path.putFile(mainImageURI).addOnCompleteListener(new OnCompleteListener<UploadTask.TaskSnapshot>() {
                         @Override
                         public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
 
                             if (task.isSuccessful()){
-                                //once the image is uploaded then it will be stored in firestore
+                                
 
                             }
                             else {
